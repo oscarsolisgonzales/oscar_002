@@ -1,0 +1,95 @@
+Listado de rutas de carpetas
+El n£mero de serie del volumen es F28A-6847
+C:.
+|   main.dart
+|   tree.txt
+|   
++---app
+|   +---data
+|   |   +---models
+|   |   |   +---response
+|   |   |   |       response_distribuidora_model.dart
+|   |   |   |       response_matteldesabaste_model.dart
+|   |   |   |       response_puntoventa_model.dart
+|   |   |   |       response_usuario_model.dart
+|   |   |   |       
+|   |   |   \---resquest
+|   |   |           request_matteldesabaste_model.dart
+|   |   |           
+|   |   \---providers
+|   |           distribuidora_provider.dart
+|   |           puntoventa_provider.dart
+|   |           usuario_provider.dart
+|   |           
+|   +---routes
+|   |       routes_name.dart
+|   |       routes_view.dart
+|   |       
+|   +---services
+|   |   +---database
+|   |   |       db.dart
+|   |   |       execute_sqlite.dart
+|   |   |       tables.dart
+|   |   |       
+|   |   \---storage
+|   |           storage_service.dart
+|   |           
+|   \---ui
+|       +---components
+|       |   |   alert_dialog_component.dart
+|       |   |   btn_prymary.dart
+|       |   |   input_text.dart
+|       |   |   spinner.dart
+|       |   |   
+|       |   \---templates
+|       |           custom_layout_builder.dart
+|       |           custom_scaffold_base.dart
+|       |           
+|       \---views
+|           +---desabastecimiento
+|           |   |   desabastecimiento_binding.dart
+|           |   |   desabastecimiento_controller.dart
+|           |   |   desabastecimiento_view.dart
+|           |   |   
+|           |   \---widgets
+|           |           attach_file.dart
+|           |           photo_viewer.dart
+|           |           
+|           +---home
+|           |       home_binding.dart
+|           |       home_controller.dart
+|           |       home_view.dart
+|           |       
+|           +---input
+|           |       input_binding.dart
+|           |       input_controller.dart
+|           |       input_view.dart
+|           |       
+|           +---login
+|           |   |   login_binding.dart
+|           |   |   login_controller.dart
+|           |   |   login_view.dart
+|           |   |   
+|           |   \---widgets
+|           |           body_form.dart
+|           |           footer_form.dart
+|           |           login_form.dart
+|           |           
+|           \---sincronizar
+|                   sincronizar_binding.dart
+|                   sincronizar_controller.dart
+|                   sincronizar_view.dart
+|                   
+\---core
+    +---theme
+    |       app_colors.dart
+    |       app_text_style.dart
+    |       app_theme.dart
+    |       
+    \---utils
+            constant.dart
+            helpers.dart
+            injection_dependency.dart
+            keys.dart
+            popup_messages.dart
+            
